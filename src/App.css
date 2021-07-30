@@ -1,0 +1,34 @@
+.mic-icon {
+  height: 4rem;
+  width: 4rem;
+  object-fit: contain;
+}
+
+.microphone {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.notes {
+  height: 100vh;
+  background-color: #ccc;
+  padding: 2rem;
+}
+
+.notes h1 {
+  margin-bottom: 2rem;
+  display: inline;
+  cursor: alias;
+}
+
+.notes h1:hover {
+  border-bottom: 2px solid steelblue;
+  color: steelblue;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
